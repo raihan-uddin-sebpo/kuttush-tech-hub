@@ -106,7 +106,7 @@ export default function Home() {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Smart Watch 1.91" HD Display</h4>
+              <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Smart Watch 1.91&quot; HD Display</h4>
               <p className="text-gray-600 dark:text-gray-300 mb-4">Premium HD smartwatch with Bluetooth 5.3 calling, 110+ sport modes, and incredible 30-day battery life.</p>
               <div className="flex items-center mb-4">
                 <div className="flex text-yellow-400 mr-2">
