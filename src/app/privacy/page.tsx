@@ -40,7 +40,7 @@ export default function Privacy() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Affiliate Links and Advertising</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              TechGadget Hub is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program 
+              Kuttush Tech Hub is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program 
               designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. 
               We may earn commission from qualifying purchases made through our affiliate links.
             </p>

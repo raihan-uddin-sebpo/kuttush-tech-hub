@@ -45,7 +45,7 @@ npx vercel --prod
 ## Quick Test URLs:
 
 After deployment, test these exact URLs:
-- https://shopvibe-tech-aktc2m999-raihan-uddins-projects-2fcd2e9f.vercel.app/
-- https://shopvibe-tech-aktc2m999-raihan-uddins-projects-2fcd2e9f.vercel.app/about
+- https://kuttush-tech-hub-three.vercel.app/
+- https://kuttush-tech-hub-three.vercel.app/about
 
 If these work, the issue is resolved. If not, check Vercel function logs.

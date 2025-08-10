@@ -14,7 +14,7 @@ export default function Terms() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Acceptance of Terms</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              By accessing and using TechGadget Hub (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), you accept and agree to be bound by 
+              By accessing and using Kuttush Tech Hub (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), you accept and agree to be bound by 
               the terms and provision of this agreement.
             </p>
           </section>
@@ -22,7 +22,7 @@ export default function Terms() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Use License</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Permission is granted to temporarily download one copy of the materials on TechGadget Hub&apos;s website 
+              Permission is granted to temporarily download one copy of the materials on Kuttush Tech Hub&apos;s website 
               for personal, non-commercial transitory viewing only.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-4">Under this license you may not:</p>
@@ -36,7 +36,7 @@ export default function Terms() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Affiliate Disclaimer</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              TechGadget Hub participates in affiliate marketing programs, including the Amazon Associates Program. 
+              Kuttush Tech Hub participates in affiliate marketing programs, including the Amazon Associates Program. 
               This means we may earn commissions from qualifying purchases made through links on our site. 
               These affiliate relationships do not influence our editorial content or product recommendations.
             </p>
@@ -54,7 +54,7 @@ export default function Terms() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Disclaimer</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              The materials on TechGadget Hub&apos;s website are provided on an &apos;as is&apos; basis. TechGadget Hub makes 
+              The materials on Kuttush Tech Hub&apos;s website are provided on an &apos;as is&apos; basis. Kuttush Tech Hub makes 
               no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, 
               without limitation, implied warranties or conditions of merchantability, fitness for a particular 
               purpose, or non-infringement of intellectual property or other violation of rights.
@@ -64,9 +64,9 @@ export default function Terms() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Limitations</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              In no event shall TechGadget Hub or its suppliers be liable for any damages (including, without 
+              In no event shall Kuttush Tech Hub or its suppliers be liable for any damages (including, without 
               limitation, damages for loss of data or profit, or due to business interruption) arising out of 
-              the use or inability to use the materials on TechGadget Hub&apos;s website.
+              the use or inability to use the materials on Kuttush Tech Hub&apos;s website.
             </p>
           </section>
 
@@ -74,7 +74,7 @@ export default function Terms() {
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Governing Law</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               These terms and conditions are governed by and construed in accordance with the laws of the 
-              jurisdiction in which TechGadget Hub operates.
+              jurisdiction in which Kuttush Tech Hub operates.
             </p>
           </section>
 

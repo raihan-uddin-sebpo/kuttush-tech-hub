@@ -74,6 +74,6 @@ export const affiliateProducts = {
 };
 
 export const siteConfig = {
-  affiliateDisclaimer: 'As an Amazon Associate, TechGadget Hub earns from qualifying purchases. This means we may receive a small commission when you click on our links and make a purchase, at no additional cost to you.',
-  amazonAssociateTag: 'your-associate-tag-20', // Replace with your actual tag
+  affiliateDisclaimer: 'As an Amazon Associate, Kuttush Tech Hub earns from qualifying purchases. This means we may receive a small commission when you click on our links and make a purchase, at no additional cost to you.',
+  amazonTrackingId: 'kuttushtechhub-20', // Official Amazon Associate tracking ID
 };

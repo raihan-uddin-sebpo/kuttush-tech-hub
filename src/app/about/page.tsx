@@ -8,7 +8,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
-              <Link href="/" className="text-3xl font-bold text-gray-900 dark:text-white">TechGadget Hub</Link>
+              <Link href="/" className="text-3xl font-bold text-gray-900 dark:text-white">Kuttush Tech Hub</Link>
             </div>
             <nav className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Home</Link>
@@ -25,7 +25,7 @@ export default function About() {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            About TechGadget Hub
+            About Kuttush Tech Hub
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Your trusted guide for fitness wearable technology. 
@@ -75,7 +75,7 @@ export default function About() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Our Story</h2>
             <div className="space-y-4 text-gray-600 dark:text-gray-300">
               <p>
-                Founded in 2025, TechGadget Hub began as a passion project by technology enthusiasts who were 
+                Founded in 2025, Kuttush Tech Hub began as a passion project by technology enthusiasts who were 
                 frustrated with superficial product reviews and biased recommendations flooding the internet.
               </p>
               <p>
@@ -165,7 +165,7 @@ export default function About() {
         <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-2xl p-8 mb-16">
           <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">🔍 Affiliate Disclosure</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-4">
-            TechGadget Hub is a participant in the Amazon Services LLC Associates Program and other affiliate 
+            Kuttush Tech Hub is a participant in the Amazon Services LLC Associates Program and other affiliate 
             programs. This means we may earn small commissions from qualifying purchases made through our links, 
             at no additional cost to you.
           </p>

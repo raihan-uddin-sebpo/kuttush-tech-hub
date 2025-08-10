@@ -13,32 +13,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TechGadget Hub - Fitness Wearable Reviews & Recommendations",
+  title: "Kuttush Tech Hub - Fitness Wearable Reviews & Recommendations",
   description: "Discover the best fitness smartwatches and wearables with honest reviews and expert recommendations. Find the perfect device for your health and fitness goals.",
   keywords: "smartwatch reviews, fitness tracker reviews, wearable technology, health monitoring devices, smartwatch comparisons, fitness watch recommendations",
-  authors: [{ name: "TechGadget Hub" }],
-  creator: "TechGadget Hub",
-  publisher: "TechGadget Hub",
+  authors: [{ name: "Kuttush Tech Hub" }],
+  creator: "Kuttush Tech Hub",
+  publisher: "Kuttush Tech Hub",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://shopvibe-tech-aktc2m999-raihan-uddins-projects-2fcd2e9f.vercel.app'),
+  metadataBase: new URL('https://kuttush-tech-hub-three.vercel.app'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: "TechGadget Hub - Fitness Wearable Reviews & Recommendations",
+    title: "Kuttush Tech Hub - Fitness Wearable Reviews & Recommendations",
     description: "Your trusted source for honest smartwatch and fitness wearable reviews and expert recommendations.",
-    url: 'https://shopvibe-tech-aktc2m999-raihan-uddins-projects-2fcd2e9f.vercel.app',
-    siteName: 'TechGadget Hub',
+    url: 'https://kuttush-tech-hub-three.vercel.app',
+    siteName: 'Kuttush Tech Hub',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "TechGadget Hub - Fitness Wearable Reviews & Recommendations",
+    title: "Kuttush Tech Hub - Fitness Wearable Reviews & Recommendations",
     description: "Your trusted source for honest smartwatch and fitness wearable reviews and expert recommendations.",
   },
   robots: {

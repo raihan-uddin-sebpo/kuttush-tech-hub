@@ -11,7 +11,7 @@ export default function SmartWatchReview() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
-              <Link href="/" className="text-3xl font-bold text-gray-900 dark:text-white">TechGadget Hub</Link>
+              <Link href="/" className="text-3xl font-bold text-gray-900 dark:text-white">Kuttush Tech Hub</Link>
             </div>
             <nav className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Home</Link>
@@ -211,7 +211,7 @@ export default function SmartWatchReview() {
         <div className="bg-gray-100 dark:bg-slate-700 rounded-lg p-6 text-sm text-gray-600 dark:text-gray-300">
           <h4 className="font-semibold mb-2">📢 Affiliate Disclosure:</h4>
           <p>
-            As an Amazon Associate, TechGadget Hub earns from qualifying purchases. 
+            As an Amazon Associate, Kuttush Tech Hub earns from qualifying purchases. 
             When you click on our Amazon links and make a purchase, we may receive a small commission 
             at no additional cost to you. This helps support our website and allows us to continue 
             providing honest, detailed reviews. Our opinions and recommendations remain completely independent 

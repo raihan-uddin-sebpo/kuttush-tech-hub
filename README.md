@@ -1,4 +1,4 @@
-# TechGadget Hub - Affiliate Marketing Website
+# Kuttush Tech Hub - Affiliate Marketing Website
 
 A professional Next.js landing page designed for tech gadget affiliate marketing, specifically optimized for Amazon Associates registration and approval.
 

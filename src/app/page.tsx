@@ -8,7 +8,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
-              <h1 className="text-3xl font-bold text-gray-900 dark:text-white">TechGadget Hub</h1>
+              <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Kuttush Tech Hub</h1>
             </div>
             <nav className="hidden md:flex space-x-8">
               <Link href="/reviews" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Reviews</Link>
@@ -110,7 +110,7 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-800">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">About TechGadget Hub</h3>
+          <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">About Kuttush Tech Hub</h3>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
             We are passionate tech enthusiasts dedicated to helping you make informed decisions about your next gadget purchase. 
             Our team tests and reviews the latest technology products to provide you with honest, detailed insights.
@@ -140,7 +140,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h5 className="text-xl font-bold mb-4">TechGadget Hub</h5>
+              <h5 className="text-xl font-bold mb-4">Kuttush Tech Hub</h5>
               <p className="text-gray-400">Your trusted source for tech reviews and recommendations.</p>
             </div>
             <div>
@@ -172,7 +172,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 TechGadget Hub. All rights reserved.</p>
+            <p>&copy; 2025 Kuttush Tech Hub. All rights reserved.</p>
             <p className="mt-2 text-sm">
               As an Amazon Associate, we earn from qualifying purchases. Product prices and availability are accurate as of the date/time indicated and are subject to change.
             </p>
