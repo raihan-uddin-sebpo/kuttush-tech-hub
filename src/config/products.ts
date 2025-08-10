@@ -162,7 +162,7 @@ export const affiliateProducts = {
     name: 'Fitbit Sense 2 Advanced Health and Fitness Smartwatch',
     shortDescription: 'Advanced health smartwatch with stress management, ECG, SpO2, and 6+ day battery',
     price: 'Check Amazon for current price',
-    amazonUrl: 'https://amzn.to/3J9k0iU',
+    amazonUrl: 'https://amzn.to/3HsJwz8',
     image: 'https://m.media-amazon.com/images/I/51GeUyZUB9L._AC_SX679_.jpg',
     rating: 4.2,
     reviewCount: '3,284',

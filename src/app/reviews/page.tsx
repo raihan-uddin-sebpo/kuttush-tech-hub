@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { affiliateProducts } from "@/config/products";
 
 export default function Reviews() {
   return (
@@ -137,6 +138,50 @@ export default function Reviews() {
                   target="_blank"
                   rel="noopener noreferrer sponsored"
                   className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center"
+                >
+                  🛒 View on Amazon
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Fitbit Sense 2 Review */}
+          <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-lg">
+            <img 
+              src={affiliateProducts.fitbitSense2.image}
+              alt="Fitbit Sense 2"
+              className="w-full max-w-sm mx-auto mb-6 rounded-xl"
+            />
+            
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+                Fitbit Sense 2 - Premium Health Smartwatch Review
+              </h2>
+              <div className="flex items-center mb-4">
+                <div className="flex text-yellow-400 mr-3">
+                  <span className="text-2xl">★★★★☆</span>
+                </div>
+                <span className="text-lg font-semibold text-gray-700 dark:text-gray-300">{affiliateProducts.fitbitSense2.rating}/5</span>
+                <span className="text-gray-500 dark:text-gray-400 ml-2">({affiliateProducts.fitbitSense2.reviewCount} reviews)</span>
+              </div>
+              <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg leading-relaxed">
+                Comprehensive review of Fitbit&apos;s most advanced health smartwatch featuring ECG monitoring, 
+                stress management tools, SpO2 tracking, and 6+ day battery life. The ultimate wellness companion 
+                with 6-month Fitbit Premium membership included.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="/reviews/fitbit-sense2"
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors"
+                >
+                  Read Full Review
+                </a>
+                <a
+                  href={affiliateProducts.fitbitSense2.amazonUrl}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors"
                 >
                   🛒 View on Amazon
                 </a>
