@@ -27,6 +27,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: 'https://kuttush-tech-hub-three.vercel.app/reviews/hd-smartwatch',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: 'https://kuttush-tech-hub-three.vercel.app/contact',
       lastModified: new Date(),
       changeFrequency: 'monthly',

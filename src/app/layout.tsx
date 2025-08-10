@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Kuttush Tech Hub - Fitness Wearable Reviews & Recommendations",
   description: "Discover the best fitness smartwatches and wearables with honest reviews and expert recommendations. Find the perfect device for your health and fitness goals.",
-  keywords: "smartwatch reviews, fitness tracker reviews, wearable technology, health monitoring devices, smartwatch comparisons, fitness watch recommendations",
+  keywords: "smartwatch reviews, fitness tracker reviews, wearable technology, health monitoring devices, smartwatch comparisons, fitness watch recommendations, alexa smartwatch, HD display smartwatch, bluetooth calling watch, 30 day battery smartwatch",
   authors: [{ name: "Kuttush Tech Hub" }],
   creator: "Kuttush Tech Hub",
   publisher: "Kuttush Tech Hub",

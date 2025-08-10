@@ -88,6 +88,63 @@ export default function Reviews() {
           </div>
         </div>
 
+        {/* Latest Review - HD Smart Watch */}
+        <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 md:p-12 mb-16 shadow-lg">
+          <div className="flex items-center mb-6">
+            <span className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-3 py-1 rounded-full text-sm font-semibold">
+              Latest Review
+            </span>
+            <span className="ml-3 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full text-sm font-semibold">
+              Premium Display
+            </span>
+          </div>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div>
+              <img 
+                src="https://m.media-amazon.com/images/I/71tnnELX24L._AC_SX466_.jpg"
+                alt="Smart Watch 1.91 HD - Call & Fitness Tracker"
+                className="w-full aspect-square object-contain bg-gray-50 dark:bg-gray-100 rounded-xl shadow-md"
+              />
+            </div>
+            
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+                Smart Watch 1.91" HD - Premium Display Review
+              </h2>
+              <div className="flex items-center mb-4">
+                <div className="flex text-yellow-400 mr-2">
+                  {'★★★★★'.split('').map((star, index) => (
+                    <span key={index} className="text-xl">{index < 5 ? '★' : '☆'}</span>
+                  ))}
+                </div>
+                <span className="text-gray-600 dark:text-gray-300">4.6/5 Rating (1,234 reviews)</span>
+              </div>
+              <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg leading-relaxed">
+                Comprehensive review of the premium 1.91" HD smartwatch featuring Bluetooth 5.3 calling, 
+                110+ sport modes, and an incredible 30-day battery life. We tested every feature to give you 
+                the complete picture of this value-packed fitness companion.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="/reviews/hd-smartwatch"
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center"
+                >
+                  Read Full Review
+                </a>
+                <a
+                  href="https://amzn.to/45Id5Gi"
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center"
+                >
+                  🛒 View on Amazon
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Newsletter Signup */}
         <div className="bg-blue-600 rounded-2xl p-8 md:p-12 text-center text-white">
           <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>

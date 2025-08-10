@@ -51,9 +51,10 @@ export default function Home() {
       {/* Featured Products */}
       <section id="featured" className="py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-800">
         <div className="max-w-7xl mx-auto">
-          <h3 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">Our Featured Product</h3>
-          <div className="grid grid-cols-1 gap-8 max-w-md mx-auto">
-            {/* Smart Watch - Only Product */}
+          <h3 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">Our Featured Products</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            
+            {/* Smart Watch with Alexa - Featured Product */}
             <div className="bg-gray-50 dark:bg-slate-700 rounded-xl p-6 hover:shadow-xl transition-shadow border-2 border-blue-200 dark:border-blue-700">
               <div className="flex items-center justify-between mb-4">
                 <span className="bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200 px-2 py-1 rounded text-xs font-semibold">
@@ -83,6 +84,41 @@ export default function Home() {
                   Read Review →
                 </a>
                 <a href="https://amzn.to/4orr7Ds" target="_blank" rel="noopener noreferrer sponsored" className="bg-orange-500 hover:bg-orange-600 text-white text-xs font-semibold px-3 py-1 rounded transition-colors">
+                  Buy on Amazon
+                </a>
+              </div>
+            </div>
+
+            {/* HD Smart Watch - New Product */}
+            <div className="bg-gray-50 dark:bg-slate-700 rounded-xl p-6 hover:shadow-xl transition-shadow border-2 border-green-200 dark:border-green-700">
+              <div className="flex items-center justify-between mb-4">
+                <span className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded text-xs font-semibold">
+                  LATEST
+                </span>
+                <span className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-2 py-1 rounded text-xs font-semibold">
+                  Premium Display
+                </span>
+              </div>
+              <div className="aspect-video bg-gray-100 dark:bg-gray-600 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                <img 
+                  src="https://m.media-amazon.com/images/I/71tnnELX24L._AC_SX466_.jpg"
+                  alt="Smart Watch 1.91 HD - Call & Fitness Tracker"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Smart Watch 1.91" HD Display</h4>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">Premium HD smartwatch with Bluetooth 5.3 calling, 110+ sport modes, and incredible 30-day battery life.</p>
+              <div className="flex items-center mb-4">
+                <div className="flex text-yellow-400 mr-2">
+                  <span className="text-lg">★★★★★</span>
+                </div>
+                <span className="text-sm text-gray-600 dark:text-gray-300">4.6/5 (1,234 reviews)</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <a href="/reviews/hd-smartwatch" className="text-blue-600 dark:text-blue-400 font-semibold hover:text-blue-700 dark:hover:text-blue-300 text-sm">
+                  Read Review →
+                </a>
+                <a href="https://amzn.to/45Id5Gi" target="_blank" rel="noopener noreferrer sponsored" className="bg-orange-500 hover:bg-orange-600 text-white text-xs font-semibold px-3 py-1 rounded transition-colors">
                   Buy on Amazon
                 </a>
               </div>

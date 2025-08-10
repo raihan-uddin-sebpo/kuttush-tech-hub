@@ -70,6 +70,91 @@ export const affiliateProducts = {
       'Users looking for Alexa integration',
       'Anyone wanting Bluetooth calling on their wrist'
     ]
+  },
+  
+  smartWatchPro: {
+    id: 'hd-fitness-smartwatch-pro',
+    name: 'Smart Watch 1.91" HD - Call & Fitness Tracker',
+    shortDescription: 'Premium fitness smartwatch with 1.91" HD display, Bluetooth 5.3 calling, and 110+ sport modes',
+    price: 'Check Amazon for current price',
+    amazonUrl: 'https://amzn.to/45Id5Gi',
+    image: 'https://m.media-amazon.com/images/I/71tnnELX24L._AC_SX466_.jpg',
+    rating: 4.6,
+    reviewCount: '1,234',
+    category: 'Fitness & Health',
+    features: [
+      '1.91" Full HD Touch Screen',
+      'Bluetooth 5.3 Call & Message',
+      '110+ Sport Modes',
+      '24/7 Heart Rate & Sleep Monitor',
+      'IP68 Waterproof Design',
+      '30-Day Battery Life',
+      'DIY Watch Faces & Voice Assistant'
+    ],
+    detailedFeatures: {
+      display: {
+        title: '1.91" HD Full Touch Screen',
+        description: 'Enjoy crystal-clear visuals with the large 1.91" HD color display. Full touch screen with hand sliding navigation and 4-level brightness adjustment ensures perfect visibility even in direct sunlight. Choose from 200+ watch face designs or customize with your favorite photos.'
+      },
+      calls: {
+        title: 'Bluetooth 5.3 Calling & Messages',
+        description: 'Advanced Bluetooth 5.3 technology ensures faster, more stable connections. Built-in microphone and Hi-Fi speaker with noise reduction let you make and receive crystal-clear calls directly from your wrist. Never miss important notifications from social media, texts, or calls.'
+      },
+      health: {
+        title: '24/7 Health Monitoring',
+        description: 'Built-in high-performance sensors monitor your heart rate continuously throughout the day. Automatic sleep tracking analyzes your sleep patterns (awake, light, deep sleep) helping you make informed decisions for better health and wellness.'
+      },
+      sports: {
+        title: '110+ Professional Sport Modes',
+        description: 'Track every workout with precision across 110+ sport modes including running, cycling, walking, yoga, football, and more. Monitor real-time data like steps, calories burned, distance, and workout duration for comprehensive fitness insights.'
+      },
+      battery: {
+        title: 'Extended 30-Day Battery Life',
+        description: 'Large capacity battery provides up to 30 days standby, 14 days regular use, or 7 days intensive use. Fast 2-hour charging keeps you connected without interruption. Perfect for active lifestyles and long trips.'
+      },
+      waterproof: {
+        title: 'IP68 Waterproof Protection',
+        description: 'Professional IP68 waterproof rating protects against water, sweat, and dust. Safe for swimming, showering, or intense workouts. Durable design built to withstand active lifestyles and outdoor adventures.'
+      },
+      smart: {
+        title: 'Smart Features & Voice Assistant',
+        description: 'Voice assistant, alarm clock, women\'s health tracking, stopwatch, timer, camera control, phone finder, calculator, music control, weather forecast, calendar, breathing exercises, and much more through the Gloryfit app.'
+      }
+    },
+    specs: {
+      operatingSystem: 'Android Wear 1.0',
+      memoryStorage: '1 GB',
+      batteryCapacity: '2 Amp Hours',
+      connectivity: 'Bluetooth 5.3',
+      wireless: 'Bluetooth',
+      batteryType: 'Lithium Polymer',
+      gps: 'GPS Via Smartphone',
+      shape: 'Square',
+      screenSize: '1.91 Inches'
+    },
+    pros: [
+      'Large 1.91" HD display with excellent visibility',
+      'Outstanding 30-day battery life',
+      'Advanced Bluetooth 5.3 for stable connections',
+      '110+ comprehensive sport modes',
+      'Professional health monitoring',
+      'IP68 waterproof for all activities',
+      '200+ customizable watch faces',
+      'Crystal-clear calling with noise reduction'
+    ],
+    cons: [
+      'Requires smartphone for GPS functionality',
+      'Limited third-party app ecosystem',
+      'Android Wear 1.0 may feel dated to some users'
+    ],
+    idealFor: [
+      'Fitness enthusiasts who want detailed tracking',
+      'Users who prioritize long battery life',
+      'People who make frequent calls from their watch',
+      'Those who want a large, clear display',
+      'Active individuals needing waterproof protection',
+      'Users who love customizing their watch face'
+    ]
   }
 };
 
