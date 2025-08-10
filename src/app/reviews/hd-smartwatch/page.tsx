@@ -50,13 +50,13 @@ export default function HDSmartwatchReview() {
             {product.name} Review
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-            Complete analysis of the premium 1.91" HD smartwatch with calling features, 110+ sport modes, 
+            Complete analysis of the premium 1.91&quot; HD smartwatch with calling features, 110+ sport modes, 
             and industry-leading 30-day battery life. Is this the ultimate fitness companion for 2025?
           </p>
           
           {/* Quick Buy CTA */}
           <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-6 mb-8 text-white">
-            <p className="text-lg font-semibold mb-2">🔥 Amazon's Choice - Limited Time Deal</p>
+            <p className="text-lg font-semibold mb-2">🔥 Amazon&apos;s Choice - Limited Time Deal</p>
             <p className="mb-4">Get the best price on this premium smartwatch today!</p>
             <a
               href={product.amazonUrl}
@@ -217,7 +217,7 @@ export default function HDSmartwatchReview() {
             <div className="text-6xl font-bold mb-2">{product.rating}/5</div>
             <div className="text-xl mb-6">Excellent Value for Money</div>
             <p className="text-lg mb-8 max-w-2xl mx-auto">
-              The 1.91" HD Smart Watch delivers exceptional value with its premium display, outstanding battery life, 
+              The 1.91&quot; HD Smart Watch delivers exceptional value with its premium display, outstanding battery life, 
               and comprehensive fitness tracking. The Bluetooth 5.3 calling feature and 110+ sport modes make it 
               ideal for active users who want professional-grade health monitoring without breaking the bank.
             </p>

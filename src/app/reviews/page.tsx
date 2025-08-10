@@ -110,7 +110,7 @@ export default function Reviews() {
             
             <div>
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-                Smart Watch 1.91" HD - Premium Display Review
+                Smart Watch 1.91&quot; HD - Premium Display Review
               </h2>
               <div className="flex items-center mb-4">
                 <div className="flex text-yellow-400 mr-2">
@@ -121,7 +121,7 @@ export default function Reviews() {
                 <span className="text-gray-600 dark:text-gray-300">4.6/5 Rating (1,234 reviews)</span>
               </div>
               <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg leading-relaxed">
-                Comprehensive review of the premium 1.91" HD smartwatch featuring Bluetooth 5.3 calling, 
+                Comprehensive review of the premium 1.91&quot; HD smartwatch featuring Bluetooth 5.3 calling, 
                 110+ sport modes, and an incredible 30-day battery life. We tested every feature to give you 
                 the complete picture of this value-packed fitness companion.
               </p>
