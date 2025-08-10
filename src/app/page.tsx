@@ -52,7 +52,7 @@ export default function Home() {
       <section id="featured" className="py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-800">
         <div className="max-w-7xl mx-auto">
           <h3 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">Our Featured Products</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             
             {/* Smart Watch with Alexa - Featured Product */}
             <div className="bg-gray-50 dark:bg-slate-700 rounded-xl p-6 hover:shadow-xl transition-shadow border-2 border-blue-200 dark:border-blue-700">
@@ -119,6 +119,41 @@ export default function Home() {
                   Read Review →
                 </a>
                 <a href="https://amzn.to/45Id5Gi" target="_blank" rel="noopener noreferrer sponsored" className="bg-orange-500 hover:bg-orange-600 text-white text-xs font-semibold px-3 py-1 rounded transition-colors">
+                  Buy on Amazon
+                </a>
+              </div>
+            </div>
+
+            {/* Garmin Vívoactive 5 - GPS Pro */}
+            <div className="bg-gray-50 dark:bg-slate-700 rounded-xl p-6 hover:shadow-xl transition-shadow border-2 border-yellow-200 dark:border-yellow-700">
+              <div className="flex items-center justify-between mb-4">
+                <span className="bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 px-2 py-1 rounded text-xs font-semibold">
+                  GPS PRO
+                </span>
+                <span className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded text-xs font-semibold">
+                  11-Day Battery
+                </span>
+              </div>
+              <div className="aspect-video bg-gray-100 dark:bg-gray-600 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                <img 
+                  src="https://m.media-amazon.com/images/I/61A4yOWzGBL._AC_SX679_.jpg"
+                  alt="Garmin Vívoactive 5"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Garmin Vívoactive 5</h4>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">AMOLED GPS smartwatch with 11-day battery, Body Battery monitoring, and 30+ sports apps.</p>
+              <div className="flex items-center mb-4">
+                <div className="flex text-yellow-400 mr-2">
+                  <span className="text-lg">★★★★★</span>
+                </div>
+                <span className="text-sm text-gray-600 dark:text-gray-300">4.8/5 (856 reviews)</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <a href="/reviews/garmin-vivoactive5" className="text-blue-600 dark:text-blue-400 font-semibold hover:text-blue-700 dark:hover:text-blue-300 text-sm">
+                  Read Review →
+                </a>
+                <a href="https://amzn.to/4lF4l8R" target="_blank" rel="noopener noreferrer sponsored" className="bg-orange-500 hover:bg-orange-600 text-white text-xs font-semibold px-3 py-1 rounded transition-colors">
                   Buy on Amazon
                 </a>
               </div>

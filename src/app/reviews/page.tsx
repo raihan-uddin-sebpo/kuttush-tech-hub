@@ -146,45 +146,115 @@ export default function Reviews() {
           </div>
 
           {/* Fitbit Sense 2 Review */}
-          <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-lg">
-            <img 
-              src={affiliateProducts.fitbitSense2.image}
-              alt="Fitbit Sense 2"
-              className="w-full max-w-sm mx-auto mb-6 rounded-xl"
-            />
-            
-            <div>
-              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-                Fitbit Sense 2 - Premium Health Smartwatch Review
-              </h2>
-              <div className="flex items-center mb-4">
-                <div className="flex text-yellow-400 mr-3">
-                  <span className="text-2xl">★★★★☆</span>
-                </div>
-                <span className="text-lg font-semibold text-gray-700 dark:text-gray-300">{affiliateProducts.fitbitSense2.rating}/5</span>
-                <span className="text-gray-500 dark:text-gray-400 ml-2">({affiliateProducts.fitbitSense2.reviewCount} reviews)</span>
+          <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-lg mb-16">
+            <div className="flex items-center mb-6">
+              <span className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-semibold">
+                Health Focus
+              </span>
+              <span className="ml-3 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full text-sm font-semibold">
+                Premium
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div>
+                <img 
+                  src={affiliateProducts.fitbitSense2.image}
+                  alt="Fitbit Sense 2"
+                  className="w-full aspect-square object-contain bg-gray-50 dark:bg-gray-100 rounded-xl shadow-md"
+                />
               </div>
-              <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg leading-relaxed">
-                Comprehensive review of Fitbit&apos;s most advanced health smartwatch featuring ECG monitoring, 
-                stress management tools, SpO2 tracking, and 6+ day battery life. The ultimate wellness companion 
-                with 6-month Fitbit Premium membership included.
-              </p>
               
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href="/reviews/fitbit-sense2"
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors"
-                >
-                  Read Full Review
-                </a>
-                <a
-                  href={affiliateProducts.fitbitSense2.amazonUrl}
-                  target="_blank"
-                  rel="noopener noreferrer sponsored"
-                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors"
-                >
-                  🛒 View on Amazon
-                </a>
+              <div>
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+                  Fitbit Sense 2 - Premium Health Smartwatch Review
+                </h2>
+                <div className="flex items-center mb-4">
+                  <div className="flex text-yellow-400 mr-3">
+                    <span className="text-2xl">★★★★☆</span>
+                  </div>
+                  <span className="text-lg font-semibold text-gray-700 dark:text-gray-300">{affiliateProducts.fitbitSense2.rating}/5</span>
+                  <span className="text-gray-500 dark:text-gray-400 ml-2">({affiliateProducts.fitbitSense2.reviewCount} reviews)</span>
+                </div>
+                <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg leading-relaxed">
+                  Comprehensive review of Fitbit&apos;s most advanced health smartwatch featuring ECG monitoring, 
+                  stress management tools, SpO2 tracking, and 6+ day battery life. The ultimate wellness companion 
+                  with 6-month Fitbit Premium membership included.
+                </p>
+                
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <a
+                    href="/reviews/fitbit-sense2"
+                    className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors"
+                  >
+                    Read Full Review
+                  </a>
+                  <a
+                    href={affiliateProducts.fitbitSense2.amazonUrl}
+                    target="_blank"
+                    rel="noopener noreferrer sponsored"
+                    className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors"
+                  >
+                    🛒 View on Amazon
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Garmin Vívoactive 5 Review */}
+          <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-lg">
+            <div className="flex items-center mb-6">
+              <span className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-3 py-1 rounded-full text-sm font-semibold">
+                GPS Pro
+              </span>
+              <span className="ml-3 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 px-3 py-1 rounded-full text-sm font-semibold">
+                Long Battery
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div>
+                <img 
+                  src={affiliateProducts.garminVivoactive5.image}
+                  alt="Garmin Vívoactive 5"
+                  className="w-full aspect-square object-contain bg-gray-50 dark:bg-gray-100 rounded-xl shadow-md"
+                />
+              </div>
+              
+              <div>
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+                  Garmin Vívoactive 5 - GPS Fitness Smartwatch Review
+                </h2>
+                <div className="flex items-center mb-4">
+                  <div className="flex text-yellow-400 mr-3">
+                    <span className="text-2xl">★★★★★</span>
+                  </div>
+                  <span className="text-lg font-semibold text-gray-700 dark:text-gray-300">{affiliateProducts.garminVivoactive5.rating}/5</span>
+                  <span className="text-gray-500 dark:text-gray-400 ml-2">({affiliateProducts.garminVivoactive5.reviewCount} reviews)</span>
+                </div>
+                <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg leading-relaxed">
+                  Complete review of Garmin&apos;s latest AMOLED GPS smartwatch featuring 11-day battery life, 
+                  Body Battery energy monitoring, 30+ sports apps, and accessibility features. Perfect for 
+                  multi-sport athletes and fitness enthusiasts seeking comprehensive tracking.
+                </p>
+                
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <a
+                    href="/reviews/garmin-vivoactive5"
+                    className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors"
+                  >
+                    Read Full Review
+                  </a>
+                  <a
+                    href={affiliateProducts.garminVivoactive5.amazonUrl}
+                    target="_blank"
+                    rel="noopener noreferrer sponsored"
+                    className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors"
+                  >
+                    🛒 View on Amazon
+                  </a>
+                </div>
               </div>
             </div>
           </div>

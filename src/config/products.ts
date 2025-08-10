@@ -195,6 +195,48 @@ export const affiliateProducts = {
       'Serious fitness enthusiasts',
       'Users wanting premium health insights'
     ]
+  },
+  
+  garminVivoactive5: {
+    id: 'garmin-vivoactive-5-gps-smartwatch',
+    name: 'Garmin Vívoactive 5, Health and Fitness GPS Smartwatch',
+    shortDescription: 'AMOLED display GPS smartwatch with 11-day battery, Body Battery monitoring, and 30+ sports apps',
+    price: 'Check Amazon for current price',
+    amazonUrl: 'https://amzn.to/4lF4l8R',
+    image: 'https://m.media-amazon.com/images/I/61A4yOWzGBL._AC_SX679_.jpg',
+    rating: 4.4,
+    reviewCount: '2,156',
+    category: 'GPS & Fitness',
+    features: [
+      'AMOLED Display & 11-Day Battery',
+      'Body Battery Energy Monitoring',
+      'Sleep Score & Personalized Coaching',
+      '30+ Built-in Sports Apps',
+      'Wheelchair Mode Support',
+      'Music Storage & Streaming',
+      'Advanced Training Features'
+    ],
+    pros: [
+      'Excellent 11-day battery life',
+      'Bright AMOLED display',
+      'Comprehensive health monitoring',
+      'Body Battery energy insights',
+      'Wheelchair accessibility features',
+      '30+ sports and fitness apps',
+      'Music storage and streaming'
+    ],
+    cons: [
+      'Higher price point than basic models',
+      'Learning curve for advanced features',
+      'Requires Garmin Connect app'
+    ],
+    idealFor: [
+      'Serious fitness enthusiasts',
+      'Multi-sport athletes',
+      'Users wanting detailed health insights',
+      'People with accessibility needs',
+      'Long-distance runners and cyclists'
+    ]
   }
 };
 
