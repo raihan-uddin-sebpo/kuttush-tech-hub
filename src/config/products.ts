@@ -155,6 +155,46 @@ export const affiliateProducts = {
       'Active individuals needing waterproof protection',
       'Users who love customizing their watch face'
     ]
+  },
+  
+  fitbitSense2: {
+    id: 'fitbit-sense-2-advanced-health',
+    name: 'Fitbit Sense 2 Advanced Health and Fitness Smartwatch',
+    shortDescription: 'Advanced health smartwatch with stress management, ECG, SpO2, and 6+ day battery',
+    price: 'Check Amazon for current price',
+    amazonUrl: 'https://amzn.to/3J9k0iU',
+    image: 'https://m.media-amazon.com/images/I/51GeUyZUB9L._AC_SX679_.jpg',
+    rating: 4.2,
+    reviewCount: '3,284',
+    category: 'Health & Fitness',
+    features: [
+      'Stress Management & ECG App',
+      'SpO2 & 24/7 Heart Rate',
+      'Built-in GPS & Sleep Tracking',
+      'Alexa Built-in',
+      '6+ Day Battery Life',
+      'Bluetooth Calls & Texts',
+      '40+ Exercise Modes'
+    ],
+    pros: [
+      'Advanced health tracking (ECG, SpO2)',
+      'Excellent battery life (6+ days)',
+      'Built-in GPS',
+      'Stress management tools',
+      'Premium health insights',
+      'Water resistant to 50 meters'
+    ],
+    cons: [
+      'More expensive than basic models',
+      'Requires Fitbit Premium for full features',
+      'iOS focused features'
+    ],
+    idealFor: [
+      'Health-conscious users',
+      'People managing stress',
+      'Serious fitness enthusiasts',
+      'Users wanting premium health insights'
+    ]
   }
 };
 
