@@ -1,64 +1,67 @@
 import { MetadataRoute } from 'next'
  
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = 'https://kuttush-tech-hub-three.vercel.app'
+  const currentDate = new Date().toISOString()
+  
   return [
     {
-      url: 'https://kuttush-tech-hub-three.vercel.app',
-      lastModified: new Date(),
+      url: baseUrl,
+      lastModified: currentDate,
       changeFrequency: 'daily',
-      priority: 1,
+      priority: 1.0,
     },
     {
-      url: 'https://kuttush-tech-hub-three.vercel.app/about',
-      lastModified: new Date(),
+      url: `${baseUrl}/about`,
+      lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://kuttush-tech-hub-three.vercel.app/reviews',
-      lastModified: new Date(),
+      url: `${baseUrl}/reviews`,
+      lastModified: currentDate,
       changeFrequency: 'daily',
       priority: 0.9,
     },
     {
-      url: 'https://kuttush-tech-hub-three.vercel.app/reviews/smartwatch',
-      lastModified: new Date(),
+      url: `${baseUrl}/reviews/smartwatch`,
+      lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://kuttush-tech-hub-three.vercel.app/reviews/hd-smartwatch',
-      lastModified: new Date(),
+      url: `${baseUrl}/reviews/hd-smartwatch`,
+      lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://kuttush-tech-hub-three.vercel.app/reviews/fitbit-sense2',
-      lastModified: new Date(),
+      url: `${baseUrl}/reviews/fitbit-sense2`,
+      lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://kuttush-tech-hub-three.vercel.app/reviews/garmin-vivoactive5',
-      lastModified: new Date(),
+      url: `${baseUrl}/reviews/garmin-vivoactive5`,
+      lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://kuttush-tech-hub-three.vercel.app/contact',
-      lastModified: new Date(),
+      url: `${baseUrl}/contact`,
+      lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: 'https://kuttush-tech-hub-three.vercel.app/privacy',
-      lastModified: new Date(),
+      url: `${baseUrl}/privacy`,
+      lastModified: currentDate,
       changeFrequency: 'yearly',
       priority: 0.5,
     },
     {
-      url: 'https://kuttush-tech-hub-three.vercel.app/terms',
-      lastModified: new Date(),
+      url: `${baseUrl}/terms`,
+      lastModified: currentDate,
       changeFrequency: 'yearly',
       priority: 0.5,
     },
